@@ -1,3 +1,18 @@
+# MY HUGO XMIN FORK
+
+I've forked Yihui Xie's (his README below) repo to create my non-minimal theme
+:smile:!
+
+Added:
+
+- Font Awesome 5.0.6: https://fontawesome.com/get-started
+
+
+
+
+-----
+
+
 # HUGO XMIN
 
 ## _Keep it simple, but not simpler_
