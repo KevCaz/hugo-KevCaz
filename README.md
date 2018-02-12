@@ -1,14 +1,17 @@
 # MY HUGO XMIN FORK
 
-I've forked Yihui Xie's (his README below) repo to create my non-minimal theme
+I've forked Yihui Xie's repo to create my non-minimal theme
 :smile:!
 
 Added:
 
 - Font Awesome 5.0.6: https://fontawesome.com/get-started
+- Academicons https://github.com/jpswalsh/academicons
 
 
+<br><br>
 
+Below is the original README:
 
 -----
 
