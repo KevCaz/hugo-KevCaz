@@ -4,8 +4,10 @@ title = "A minimal Hugo website"
 theme = "hugo-xmin"
 googleAnalytics = ""
 disqusShortname = ""
+twitterUsername = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
+googlefont = "Lato"
 footnotereturnlinkcontents = "↩"
 
 [permalinks]

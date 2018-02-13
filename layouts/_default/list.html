@@ -1,18 +1,27 @@
 {{ partial "header.html" . }}
 
-{{if not .IsHome }}
-<h1>{{ .Title }}</h1>
-{{ end }}
+<img class="full-width" width="100%" src="/img/banner.jpg"></img>
 
-{{ .Content }}
 
-<ul>
-  {{ range (where .Data.Pages "Section" "!=" "") }}
-  <li>
-    <span class="date">{{ .Date.Format "2006/01/02" }}</span>
-    <a href="{{ .URL }}">{{ .Title }}</a>
-  </li>
+<div class="container">
+
+  {{if not .IsHome }}
+  <h1>{{ .Title }}</h1>
   {{ end }}
-</ul>
+
+  {{ .Content }}
+
+  <br>
+
+  <ul>
+    {{ range (where .Data.Pages "Section" "!=" "") }}
+    <li>
+      <span class="date">{{ .Date.Format "2006/01/02" }}</span>
+      <a href="{{ .URL }}">{{ .Title }}</a>
+    </li>
+      {{ end }}
+  </ul>
+
+</div>
 
 {{ partial "footer.html" . }}

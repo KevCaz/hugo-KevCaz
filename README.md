@@ -6,7 +6,9 @@ I've forked Yihui Xie's repo to create my non-minimal theme
 Added:
 
 - Font Awesome 5.0.6: https://fontawesome.com/get-started
-- Academicons https://github.com/jpswalsh/academicons
+- Academicons 1.8.2: https://github.com/jpswalsh/academicons
+
+jquerry / jquerryui / boostrap
 
 
 <br><br>
