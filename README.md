@@ -4,8 +4,10 @@ I've forked Yihui Xie's repository [hugo-xmin](https://github.com/yihui/hugo-xmi
 
 ## Library added
 
-- Font Awesome 5.0.6: https://fontawesome.com/get-started
-- Academicons 1.8.2: https://github.com/jpswalsh/academicons
-- jquerry
-- jquerryui
-- boostrap
+- [Font Awesome](https://fontawesome.com/get-started) v4.7.0
+- [Academicons](https://github.com/jpswalsh/academicons) v1.8.2
+- [Ionicons](https://ionicons.com/) v4.2.2
+- [Tocify](http://gregfranko.com/jquery.tocify.js/) v1.9.0 that depends οn:
+  - [jQuerry](https://jquery.com/) v1.8.3
+  - [jQuerryui](https://jqueryui.com/) v1.9.1
+- [Bootstrap](https://getbootstrap.com/docs/3.3/) v.3.3.7

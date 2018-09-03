@@ -6,12 +6,11 @@
 /* The Table of Contents container element */
 .tocify {
     width: 20%;
-    max-height: 60%;
+    max-height: 90%;
     overflow: auto;
-    margin-top: 5px;
     margin-left: 2%;
     position: fixed;
-    border: 2px solid #3fb3b2;
+    border: 1px solid #ccc;
     webkit-border-radius: 6px;
     moz-border-radius: 6px;
     border-radius: 6px;
