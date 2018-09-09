@@ -2,6 +2,7 @@ body {
   margin: auto;
 }
 
+
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }
@@ -10,7 +11,10 @@ body {
   padding: 5px;
   border-radius: 5px;
 }
-.menu, .article-meta { text-align: center; }
+.menu, .article-meta {
+  text-align: center;
+}
+
 .title { font-size: 1.1em; }
 
 hr {
