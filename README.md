@@ -1,7 +1,7 @@
 # My Hugo theme
 
 I've forked Yihui Xie's repository [hugo-xmin](https://github.com/yihui/hugo-xmin) to create my non-minimal theme.
-I was also inspired (meaning I copy-pasted code) by the [Minimal](https://themes.gohugo.io/minimal/) theme :smile:!
+I was also inspired (meaning I copy-pasted pieces of code) by the [Minimal](https://themes.gohugo.io/minimal/) and the [Academic](https://themes.gohugo.io/academic/) theme :smile:!
 
 ## Library added
 
