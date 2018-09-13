@@ -6,7 +6,12 @@
   {{ if .Params.date }}<h2 class="date" style="font-size: 1.8em;">{{ .Date.Format "January 2, 2006" }}</h2>{{ end }}
 
   <!-- tags -->
-  <p class="tags"> <i class="fa fa-tags" aria-hidden="true"></i> &nbsp; {{ range .Params.tags }} <a href="/tags/{{ . | urlize }}"><kbd class="item-tag">{{ . }}</kbd></a> {{ end }}</p>
+  <p class="tags">
+    <i class="fa fa-tags" aria-hidden="true"></i> &nbsp;
+    {{ range .Params.tags }}
+      <a href="/tags/{{ . | urlize }}"> <kbd class="item-tag">{{ . }}</kbd></a>
+    {{ end }}
+  </p>
   <!-- END tags -->
 </div>
 
