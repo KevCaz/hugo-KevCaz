@@ -1,12 +1,28 @@
   <br><br>
-  <footer>
-  {{ partial "foot_custom.html" . }}
-  {{ with .Site.Params.footer }}
-  <hr/>
-  {{ . | markdownify }}
-  {{ end }}
 
-  <br><br>
+  <footer>
+
+    <div class="row">
+
+      <div class="col-sm-3">
+        <div class="hidden-sm hidden-xs">
+        </div>
+      </div>
+
+      <div class="col-sm-8">
+
+        {{ partial "foot_custom.html" . }}
+        {{ with .Site.Params.footer }}
+        <hr/>
+        {{ . | markdownify }}
+        {{ end }}
+
+      </div>
+
+    </div>
+
+
+  <br>
   </footer>
 
   </body>
