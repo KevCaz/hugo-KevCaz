@@ -68,13 +68,3 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
 .small {
   font-size: .8em;
 }
-
-
-#map {
-  height: 400px;
-  width: 92%;
-  float: center;
-  display: inline-block;
-  background-color:black;
-  margin: 10px 10px 10px 10px;
- }
