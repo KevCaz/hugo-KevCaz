@@ -68,25 +68,3 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
 .small {
   font-size: .8em;
 }
-
-.books {
-  border-radius: 10px;
-  border-style: solid;
-  border-color: #e7e7e7;
-  margin-top: 8px;
-  padding: 8px;
-}      <b> {{ .title }}. </b>
-
-
-.books h1,h2,h3 {
-  padding: 0px;
-  margin: 0px;
-}
-
-.books h1 {
-  font-size: 1.7em;
-}
-
-.books h2 {
-  font-size: 1.25em;
-}
