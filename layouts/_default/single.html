@@ -6,14 +6,29 @@
   {{ if .Params.date }}<h3 class="date" style="font-size: 1.25em;">{{ .Date.Format "January 2, 2006" }}</h2>{{ end }}
 
   <!-- tags -->
-  <p class="tags">
-    <i class="fa fa-tags" aria-hidden="true"></i> &nbsp;
-    {{ range .Params.tags }}
-      <a href="/tags/{{ . | urlize }}"> <kbd class="item-tag">{{ . }}</kbd></a>
-    {{ end }}
-  </p>
+  {{ if .Params.tags }}
+    <p class="tags">
+      <i class="fa fa-tags" aria-hidden="true"></i> &nbsp;
+      {{ range .Params.tags }}
+        <a href="/tags/{{ . | urlize }}"> <kbd class="item-tag">{{ . }}</kbd></a>
+      {{ end }}
+    </p>
+  {{ end }}
   <!-- END tags -->
+
+  <!-- topics -->
+  {{ if .Params.topics }}
+    <p class="tags">
+      <i class="fa fa-bullhorn" aria-hidden="true"></i> &nbsp;
+      {{ range .Params.topics }}
+        <a href="/topics/{{ . | urlize }}"> <kbd class="item-tag">{{ . }}</kbd></a>
+      {{ end }}
+    </p>
+  {{ end }}
+  <!-- END topics -->
+
   <br>
+
 </div>
 
 {{ .Content }}
