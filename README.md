@@ -3,6 +3,10 @@
 I've forked Yihui Xie's repository [hugo-xmin](https://github.com/yihui/hugo-xmin) to create my non-minimal theme.
 I was also inspired (meaning I copy-pasted pieces of code) by the [Minimal](https://themes.gohugo.io/minimal/) and the [Academic](https://themes.gohugo.io/academic/) theme :smile:!
 
+## Features added
+
+- I added submenus following  http://bootstrapessentials.com/fulldocs/components/navbar/navbar-submenu/ and https://github.com/devcows/hugo-universal-theme/blob/master/layouts/partials/nav.html
+
 ## Library added
 
 The following JavaScript libraries I used are licensed under the MIT License:
