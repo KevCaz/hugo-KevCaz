@@ -22,10 +22,12 @@
 <!-- highlight.js -->
 {{ if .Site.Params.highlight | default false }}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+{{ $hjsversion := .Site.Params.highlight_version | default "9.15.2" }}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/{{ $hjsversion }}/highlight.min.js"></script>
 
 {{ range .Site.Params.highlight_languages }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages//{{ . }}.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/{{ $hjsversion }}/languages//{{ . }}.min.js"></script>
 {{ end }}
 
 <script>
@@ -33,7 +35,7 @@
 </script>
 
 <!-- css -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{ .Site.Params.highlight_style | default "default" }}.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/{{ $hjsversion }}/styles/{{ .Site.Params.highlight_style | default "default" }}.min.css">
 
 {{ end }}
 
