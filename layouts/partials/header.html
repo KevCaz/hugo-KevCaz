@@ -41,6 +41,7 @@
 
         {{ if .Site.Menus.main }}
         <ul class="nav navbar-nav mr-auto">
+          <li class="navbar-icon"> <a href="/"><i class="fa fa-home"></i></a></li>
           {{ range sort .Site.Menus.main }}
           {{ if .HasChildren }}
           <li class="dropdown">
@@ -52,10 +53,10 @@
             </ul>
           </li>
           {{ else }}
-          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
           {{ end }}
-
-
           {{ end }}
         </ul>
         {{ end }}
